@@ -11,7 +11,7 @@ function RoutesApp(){
             <Header/>
             <Routes>
                 <Route path="/" element={ <Home/> }>Home</Route>
-                <Route path="/filme:id" element={ <Filme/> }>Home</Route>
+                <Route path="/filme/:id" element={ <Filme/> }>Home</Route>
 
                 <Route path="*" element={ <Erro /> }></Route>
             </Routes>
